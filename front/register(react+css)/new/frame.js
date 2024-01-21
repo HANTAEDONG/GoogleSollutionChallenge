@@ -11,8 +11,8 @@ const IcroundArrowBackIosIcon = styled.img`
 `;
 const Icon = styled.img`
   position: absolute;
-  top: calc(50% - 29px);
-  left: 14px;
+  top: 68px;
+  left: calc(50% - 344px);
   width: 100px;
   height: 100px;
   overflow: hidden;
@@ -48,8 +48,8 @@ const Div1 = styled.div`
 `;
 const Div2 = styled.div`
   position: absolute;
-  top: calc(50% - 9px);
-  left: 577px;
+  top: 46px;
+  left: calc(50% + 219px);
   background-color: var(--color-gainsboro);
   width: 112px;
   height: 47px;
@@ -289,8 +289,10 @@ const Div18 = styled.div`
 `;
 const Parent = styled.div`
   position: absolute;
+  height: calc(100% - 892px);
   top: 868px;
-  left: 140px;
+  bottom: 24px;
+  left: calc(50% - 218px);
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -300,8 +302,10 @@ const Parent = styled.div`
 `;
 const Group = styled.div`
   position: absolute;
+  height: calc(100% - 892px);
   top: 868px;
-  left: 420px;
+  bottom: 24px;
+  left: calc(50% + 62px);
   display: flex;
   flex-direction: column;
   align-items: flex-start;
